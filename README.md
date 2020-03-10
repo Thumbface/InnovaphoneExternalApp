@@ -3,9 +3,9 @@
 
 ## Usage
 ```
-Name: InsertRandomName <br/>
-Path: https://yourdomain.ext/Customer1/$n <br/>
-Params: Empty <br/>
+Name: InsertRandomName
+Path: https://yourdomain.ext/Customer1/$n
+Params: Empty
 Start with call acceptance: Optional, what even suits you.
 ```
 
