@@ -2,6 +2,7 @@
 
 
 ## Usage
+Configuration->External Application
 ```
 Name: InsertYourPrefferedName
 Path: https://yourdomain.ext/customername/$n
