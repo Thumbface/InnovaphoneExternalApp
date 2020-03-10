@@ -3,6 +3,7 @@ A webbased application that allowes the user to open up a custom url or applicat
 We have 2 options regarding the call acceptance:
 * Automatically open up a custom url and/or application when a call is answered
 * Click a button during a answered call to open up a custom url and/or application<br/>
+
 This choise is configured below at the Start with call acceptance checkbox.
 
 ## Usage
