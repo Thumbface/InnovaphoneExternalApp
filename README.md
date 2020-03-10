@@ -7,7 +7,10 @@ We have 2 options regarding the call acceptance:
 This choise is configured in the Usage at the **Start with call acceptance** checkbox.
 
 ## Usage
-Configuration->External Application
+* Right-click on the running MYPBX application 
+* Select Configuration
+* Select tab External Application
+* Complete this window according to the example below
 ```
 Name: InsertYourPrefferedName
 Path: https://yourdomain.ext/customername/$n
