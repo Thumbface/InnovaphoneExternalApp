@@ -1,0 +1,13 @@
+Options All -Indexes
+
+# MOD_REWRITE AANZETTEN
+RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteBase /
+
+# STANDAARD
+RewriteRule ^([^.]+)/([^.]+)/([^.]+)/([^.]+)/?$         /index.php?1=$1&2=$2&3=$3&4=$4&%{QUERY_STRING} [L]
+RewriteRule ^([^.]+)/([^.]+)/([^.]+)/?$                 /index.php?1=$1&2=$2&3=$3&%{QUERY_STRING} [L]
+RewriteRule ^([^.]+)/([^.]+)/?$                         /index.php?1=$1&2=$2&%{QUERY_STRING} [L]
+RewriteRule ^([^.]+)/?$                                 /index.php?1=$1&%{QUERY_STRING} [L]
