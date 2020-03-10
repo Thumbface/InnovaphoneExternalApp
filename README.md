@@ -3,10 +3,10 @@
 
 ## Usage
 ```
-Name: InsertRandomName
-Path: https://yourdomain.ext/Customer1/$n
+Name: InsertYourPrefferedName
+Path: https://yourdomain.ext/customername/$n
 Params: Empty
-Start with call acceptance: Optional, what even suits you.
+Start with call acceptance: optional, what the customer preffers.
 ```
 
 ## How to
